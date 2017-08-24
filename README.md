@@ -1,2 +1,3 @@
 # euler
-My attempts to solve the Project Euler problems
+
+Code snippet solutions to some of the problems from ProjectEuler.
