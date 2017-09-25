@@ -1,7 +1,9 @@
 //2. Even Fibonacci numbers
 
+/fibonacci numbers below MAX
+fib:{[MAX]{x,sum -2#x}/[{[MAX;x]MAX>sum -2#x}[MAX;];0 1]}
 /fibonacci numbers below 4 million
-fibs:{{[MAX;x]n:sum -2#x;$[n<MAX;x,n;x]}[x]/[0 1]} 4e6;
+f: fib 4e6;
 /even fibonacci numbers
-sum fibs where 0=fibs mod 2
+sum f where 0=f mod 2
 /4613732

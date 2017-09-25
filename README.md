@@ -1,6 +1,6 @@
 # euler
 
-Attempt to solve some of the ProjectEuler using Q/kdb+.
+Attempts to solve some of the Project Euler problems using Q/kdb+.
 
  - [x] 000001 [Multiples of 3 and 5](q/00001.q)
  - [x] 000002 [Even Fibonacci numbers](q/00002.q)
@@ -12,14 +12,14 @@ Attempt to solve some of the ProjectEuler using Q/kdb+.
  - [x] 000008 [Largest product in a series](q/00008.q)
  - [x] 000009 [Special Pythagorean triplet](q/00009.q)
  - [x] 000010 [Summation of primes](q/00010.q)
- - [ ] 000011 Summation of primes
+ - [ ] 000011 Largest product in a grid
  - [x] 000012 [Highly divisible triangular number](q/00012.q)
  - [x] 000013 [Large sum](q/00013.q)
  - [x] 000014 [Longest Collatz sequence](q/00014.q)
  - [ ] 000015 Lattice paths
  - [ ] 000016 Power digit sum
  - [ ] 000017 Number letter counts
- - [ ] 000018 Maximum path sum I
+ - [x] 000018 [Maximum path sum I](q/00018.q)
  - [x] 000019 [Counting Sundays](q/00019.q)
  - [ ] 000020 Factorial digit sum
  - [x] 000021 [Amicable numbers](q/00021.q)
