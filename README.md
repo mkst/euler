@@ -17,7 +17,7 @@ Attempts to solve some of the Project Euler problems using Q/kdb+.
  - [x] 000013 [Large sum](q/00013.q)
  - [x] 000014 [Longest Collatz sequence](q/00014.q)
  - [ ] 000015 Lattice paths
- - [ ] 000016 Power digit sum
+ - [x] 000016 [Power digit sum](q/00016.q)
  - [ ] 000017 Number letter counts
  - [x] 000018 [Maximum path sum I](q/00018.q)
  - [x] 000019 [Counting Sundays](q/00019.q)
