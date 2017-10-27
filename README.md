@@ -12,7 +12,7 @@ Attempts to solve some of the Project Euler problems using Q/kdb+.
  - [x] 000008 [Largest product in a series](q/00008.q)
  - [x] 000009 [Special Pythagorean triplet](q/00009.q)
  - [x] 000010 [Summation of primes](q/00010.q)
- - [ ] 000011 Largest product in a grid
+ - [x] 000011 [Largest product in a grid](q/00011.q)
  - [x] 000012 [Highly divisible triangular number](q/00012.q)
  - [x] 000013 [Large sum](q/00013.q)
  - [x] 000014 [Longest Collatz sequence](q/00014.q)
