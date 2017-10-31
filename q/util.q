@@ -3,9 +3,9 @@ pal:{(reverse neg[c]#s)~(c:div[count s;2])#s:string x};
 /returns all primes under n
 pun:{last {$[count F:first x;(F where not 0=mod[F;first F];last[x],first F);x]}/[(2+til x-2;())]};
 /xor function
-xor:{0b sv(0b vs x)<>0b vs y};
+xor:{0b sv(<>/)0b vs'(x;y)};
 /break number into digits
-digits:{("j"$string x)-48};
+digits:{-48+"j"$string x};
 /greatest common denominator (helper)
 gcd_helper:{$[0=m:mod[x;y];y;.z.s[y;m]]};
 /greatest common denominator (wrapper)

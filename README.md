@@ -16,12 +16,12 @@ Attempts to solve some of the Project Euler problems using Q/kdb+.
  - [x] 000012 [Highly divisible triangular number](q/00012.q)
  - [x] 000013 [Large sum](q/00013.q)
  - [x] 000014 [Longest Collatz sequence](q/00014.q)
- - [ ] 000015 Lattice paths
+ - [x] 000015 [Lattice paths](q/00015.q)
  - [x] 000016 [Power digit sum](q/00016.q)
- - [ ] 000017 Number letter counts
+ - [x] 000017 [Number letter counts](q/00017.q)
  - [x] 000018 [Maximum path sum I](q/00018.q)
  - [x] 000019 [Counting Sundays](q/00019.q)
- - [ ] 000020 Factorial digit sum
+ - [x] 000020 [Factorial digit sum](q/00020.q)
  - [x] 000021 [Amicable numbers](q/00021.q)
  - [x] 000022 [Names scores](q/00022.q)
  - [x] 000023 [Non-abundant sums](q/00023.q)
