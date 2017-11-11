@@ -14,6 +14,7 @@ add:{
   r mod 10                                   / return units of result
   };
 Add:{
+  if[7h=type x;:x];                          / fast return
   CARRY::0;                                  / reset CARRY
   r:reverse add each reverse flip zeropad x; / pad digits to add leading zero for CARRY-over
   (0^1+last where mins r=0)_r                / remove any leading zeros
