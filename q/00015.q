@@ -1,7 +1,10 @@
 // 15. Lattice paths
 
-/ load 00020 for Prod
-\l 00020.q
+/ for digits
+\l util.q
+
+/ for Prod
+\l big.q
 
 /bruteforce search (takes hours/days)
 /{sum { sum x = sum each 0b vs'floor y + til ceiling 2 xexp x}[x;] peach (2 xexp x) * til floor 2 xexp x } 20
