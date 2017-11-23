@@ -1,6 +1,6 @@
 # euler
 
-Attempts to solve some of the Project Euler problems using Q/kdb+.
+My attempt to solve the Project Euler problems using Q/kdb+.
 
  - [x] 00001 [Multiples of 3 and 5](q/00001.q)
  - [x] 00002 [Even Fibonacci numbers](q/00002.q)
@@ -42,9 +42,11 @@ Attempts to solve some of the Project Euler problems using Q/kdb+.
  - ... lots of gaps from here on in
  - [x] 00040 [Champernowne's constant](q/00040.q)
  - [x] 00042 [Coded triangle numbers](q/00042.q)
+ - [x] 00043 [Sub-string divisibility](q/00043.q)
  - [x] 00045 [Triangular, pentagonal, and hexagonal](q/00045.q)
  - [x] 00048 [Self powers](q/00048.q)
  - [x] 00052 [Permuted multiples](q/00052.q)
+ - [x] 00056 [Powerful digit sum](q/00056.q)
  - [x] 00059 [XOR decryption](q/00059.q)
  - [x] 00092 [Square digit chains](q/00092.q)
  - [x] 00145 [How many reversible numbers are there below one-billion?](q/00145.q)

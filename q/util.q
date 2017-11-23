@@ -22,3 +22,5 @@ tri:{div[x*x+1;2]};
 pen:{div[x*(3*x)-1;2]};
 /hexagonal number (n(2n−1))
 hex:{x*(2*x)-1};
+/sliding window
+win:{neg[x-1]_flip next\[x-1;y]};
