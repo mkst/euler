@@ -28,7 +28,7 @@ My attempt to solve the Project Euler problems using Q/kdb+.
  - [x] 00024 [Lexicographic permutations](q/00024.q)
  - [x] 00025 [1000-digit Fibonacci number](q/00025.q)
  - [x] 00026 [Reciprocal cycles](q/00026.q)
- - [ ] 00027 Quadratic primes
+ - [X] 00027 [Quadratic primes](q/00027.q)
  - [x] 00028 [Number spiral diagonals](q/00028.q)
  - [x] 00029 [Distinct powers](q/00029.q)
  - [x] 00030 [Digit fifth powers](q/00030.q)
