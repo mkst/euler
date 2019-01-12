@@ -34,7 +34,7 @@ My attempt to solve the Project Euler problems using Q/kdb+.
  - [x] 00030 [Digit fifth powers](q/00030.q)
  - [x] 00031 [Coin sums](q/00031.q)
  - [x] 00032 [Pandigital products](q/00032.q)
- - [ ] 00033 Digit cancelling fractions
+ - [x] 00033 [Digit cancelling fractions](q/00033.q)
  - [x] 00034 [Digit factorials](q/00034.q)
  - [x] 00035 [Circular primes](q/00035.q)
  - [x] 00036 [Double-base palindromes](q/00036.q)
