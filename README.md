@@ -32,7 +32,7 @@ My attempt to solve the Project Euler problems using Q/kdb+.
  - [x] 00028 [Number spiral diagonals](q/00028.q)
  - [x] 00029 [Distinct powers](q/00029.q)
  - [x] 00030 [Digit fifth powers](q/00030.q)
- - [ ] 00031 Coin sums
+ - [x] 00031 [Coin sums](q/00031.q)
  - [x] 00032 [Pandigital products](q/00032.q)
  - [ ] 00033 Digit cancelling fractions
  - [x] 00034 [Digit factorials](q/00034.q)
