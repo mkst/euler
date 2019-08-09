@@ -39,8 +39,10 @@ My attempt to solve the Project Euler problems using Q/kdb+.
  - [x] 00035 [Circular primes](q/00035.q)
  - [x] 00036 [Double-base palindromes](q/00036.q)
  - [x] 00037 [Truncatable primes](q/00037.q)
- - ... lots of gaps from here on in
+ - [x] 00038 [Pandigital multiples](q/00038.q)
+ - [x] 00039 [Integer right triangles](q/00039.q)
  - [x] 00040 [Champernowne's constant](q/00040.q)
+ - ... lots of gaps from here on in
  - [x] 00042 [Coded triangle numbers](q/00042.q)
  - [x] 00043 [Sub-string divisibility](q/00043.q)
  - [x] 00045 [Triangular, pentagonal, and hexagonal](q/00045.q)
