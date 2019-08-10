@@ -42,9 +42,10 @@ My attempt to solve the Project Euler problems using Q/kdb+.
  - [x] 00038 [Pandigital multiples](q/00038.q)
  - [x] 00039 [Integer right triangles](q/00039.q)
  - [x] 00040 [Champernowne's constant](q/00040.q)
- - ... lots of gaps from here on in
+ - [x] 00041 [Pandigital prime](q/00041.q)
  - [x] 00042 [Coded triangle numbers](q/00042.q)
  - [x] 00043 [Sub-string divisibility](q/00043.q)
+ - ... lots of gaps from here on in
  - [x] 00045 [Triangular, pentagonal, and hexagonal](q/00045.q)
  - [x] 00048 [Self powers](q/00048.q)
  - [x] 00052 [Permuted multiples](q/00052.q)
