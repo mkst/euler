@@ -8,25 +8,15 @@ zeropad:{(((1+max[c]-c:count each x)#'0),'x)}
 CARRY:0;
 PRECISION:2000; / 2000 decimals
 
-add:{
-  r:CARRY+sum x;                             / sum numbers including CARRY
-  CARRY::r div 10;                           / if result > 10 then there is a CARRY
-  r mod 10                                   / return units of result
-  };
-Add:{
-  if[7h=type x;:x];                          / fast return
-  CARRY::0;                                  / reset CARRY
-  r:reverse add each reverse flip zeropad x; / pad digits to add leading zero for CARRY-over
-  (0^1+last where mins r=0)_r                / remove any leading zeros
-  };
+Add:{ (sum mins 0=r)_r:reverse { $[any x>9;((x mod 10),0)+(0,d:x div 10);x] }/[ sum reverse each zeropad x ] }
 
 prod:{
-  Add { (raze digits y[z]*x),z#0 }[y;reverse x] each til count x
+  Add { (raze digits y[z]*x),z#0 }[y;reverse x] peach til count x
   };
 Prod:{
-  r:prod[digits x;] each reverse d:digits y; / multiply x by each y
-  if[1=count r;:(raze/)r];                   / single digit y, raze to return list
-  Add r,'(til count d)#'0                    / add products together
+  r:prod[digits x;] peach reverse d:digits y; / multiply x by each y
+  if[1=count r;:(raze/)r];                    / single digit y, raze to return list
+  Add r,'(til count d)#'0                     / add products together
   };
 
 divide:{
