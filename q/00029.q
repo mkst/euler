@@ -3,6 +3,6 @@
 / for Prod
 \l big.q
 
-// takes ~ 4 minutes
+// takes ~40 seconds
 count distinct raze (2 + til 99){ (Prod/)y#x }\:/:2 + til 99
 /9183

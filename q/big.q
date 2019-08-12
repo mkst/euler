@@ -10,14 +10,7 @@ PRECISION:2000; / 2000 decimals
 
 Add:{ (sum mins 0=r)_r:reverse { $[any x>9;((x mod 10),0)+(0,d:x div 10);x] }/[ sum reverse each zeropad x ] }
 
-prod:{
-  Add { (raze digits y[z]*x),z#0 }[y;reverse x] peach til count x
-  };
-Prod:{
-  r:prod[digits x;] peach reverse d:digits y; / multiply x by each y
-  if[1=count r;:(raze/)r];                    / single digit y, raze to return list
-  Add r,'(til count d)#'0                     / add products together
-  };
+Prod:{ Add (y*/:reverse x),'til[count x]#'0 };
 
 divide:{
   r:x+10*CARRY;
