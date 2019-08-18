@@ -48,8 +48,12 @@ My attempt to solve the Project Euler problems using Q/kdb+.
  - ... lots of gaps from here on in
  - [x] 00045 [Triangular, pentagonal, and hexagonal](q/00045.q)
  - [x] 00048 [Self powers](q/00048.q)
+ - [x] 00049 [Prime permutations](q/00049.q)
+ - [x] 00050 [Consecutive prime sum](q/00050.q)
  - [x] 00052 [Permuted multiples](q/00052.q)
+ - [x] 00055 [Lychrel numbers](q/00055.q)
  - [x] 00056 [Powerful digit sum](q/00056.q)
  - [x] 00059 [XOR decryption](q/00059.q)
+ - [x] 00062 [Cubic permutations](q/00062.q)
  - [x] 00092 [Square digit chains](q/00092.q)
  - [x] 00145 [How many reversible numbers are there below one-billion?](q/00145.q)
